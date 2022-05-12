@@ -7,7 +7,7 @@ class Home extends Component {
 
       <p className="kop">ANDELSBAREN TRAV</p>
      <div class="feed">
-     <iframe width="1424" height="540"  src="https://rss.app/embed/v1/carousel/_jwPl6e2HY5HH4K59" frameborder="0"></iframe>
+     <iframe width="1400" height="540"  src="https://rss.app/embed/v1/carousel/OCg3WyhfviGKqNp0" frameborder="0"></iframe>
      </div>
 
 </div>
