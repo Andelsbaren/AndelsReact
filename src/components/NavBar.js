@@ -17,7 +17,7 @@ function NavBar() {
            <nav className="navbar">
         
           <NavLink exact to="/" className="nav-logo">
-            ANDELSBAREN
+            ANDELSBAREN SPORT
     
           </NavLink>
   
