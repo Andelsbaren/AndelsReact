@@ -242,7 +242,12 @@ footer p {
   text-transform: uppercase
 }
 @media (max-width:576px) {
-
+  .feed{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    
+    }
   
   .ossom {
     border-bottom: 2px solid rgb(255, 255, 255);
@@ -335,12 +340,24 @@ footer p {
   }
 }
 @media (min-width:768px) {
+  .feed{
+    display: flex;
+    margin-top: 7rem;
+    justify-content: center;
+    
+    }
   .hr1 {
     border: 1px solid red;
     width: 45rem
   }
 }
 @media (min-width:992px) {
+  .feed{
+    display: flex;
+    margin-top: 12rem;
+    justify-content: center;
+    
+    }
   .svenska-button {
     width: 14rem;
     margin-top: -4rem;
@@ -420,6 +437,14 @@ footer p {
 
 
 @media (min-width:320px){
+
+  .feed{
+    display: flex;
+    margin-top: 9rem;
+    justify-content: center;
+    
+    }
+
   .contactpage {
     width: 100%;
     height: 100%;
