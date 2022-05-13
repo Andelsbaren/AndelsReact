@@ -9,12 +9,9 @@ class Home extends Component {
      <div class="feed">
      <iframe width="1450" height="540"  src="https://rss.app/embed/v1/carousel/OCg3WyhfviGKqNp0" frameborder="0"></iframe>
      </div>
-
 </div>
-
  )
 }
-}
-    
+}   
     export default Home
     
