@@ -5,8 +5,6 @@
   --color-3: #027b9a;
   --color-5: #000
 }
-
-
 #stodlinjen {
   padding-top: 1rem;
   padding-left: .98rem
@@ -17,7 +15,6 @@
 #ansvarsfullt {
   padding-left: 10px
 }
-
 .footer {
   width: 100%;
   position: fixed;
@@ -27,7 +24,7 @@
   height: 4rem
 }
 body {
-  background-color: black;
+  background-color: #000;
   transition: background-color .3s
 }
 h1,
@@ -39,19 +36,12 @@ h4 {
 p {
   color: #fff
 }
-
-
-
-
-
 .masthead {
   font-family: Cabin,Helvetica Neue,Helvetica,Arial,sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 60%
 }
-
-
 a {
   transition: all .2s ease-in-out;
   color: #fff
@@ -76,8 +66,6 @@ footer p {
   padding-top: 1.5rem;
   background-color: transparent
 }
-
-
 .footer-responsibility {
   display: flex;
   flex-direction: column;
@@ -101,7 +89,6 @@ footer p {
   border-radius: 1rem;
   box-shadow: #000
 }
-
 .navbar-logo {
   max-width: 10rem;
   max-height: 10rem;
@@ -115,13 +102,12 @@ footer p {
   .slideshow-container {
     max-width: 540px
   }
-
 }
 .Media {
   font-size: 2rem;
   font-family: Sandoval;
   letter-spacing: .4rem;
-  border-bottom: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid #fff;
   text-transform: uppercase;
   color: gold
 }
@@ -138,18 +124,12 @@ footer p {
   }
 }
 @media (min-width:992px) {
-
-  
   .slideshow-container {
     max-width: 800px
   }
-
-.ticker{
-  position: sticky;
-  
-
-}
-
+  .ticker {
+    position: sticky
+  }
   #pic {
     position: relative;
     max-height: 20.5rem;
@@ -214,7 +194,6 @@ footer p {
     margin-right: 1rem
   }
 }
-
 .svenska-button:hover {
   transform: scale(1.019)
 }
@@ -224,7 +203,6 @@ footer p {
 .adress {
   font-size: small
 }
-
 .headertext {
   color: #000;
   padding-top: 10rem;
@@ -242,15 +220,13 @@ footer p {
   text-transform: uppercase
 }
 @media (max-width:576px) {
-  .feed{
+  .feed {
     display: flex;
     margin-top: 3rem;
-    justify-content: center;
-    
-    }
-  
+    justify-content: center
+  }
   .ossom {
-    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid #fff;
     color: gold;
     font-family: sandoval;
     letter-spacing: .4rem;
@@ -283,7 +259,7 @@ footer p {
     border-bottom: 2px solid red
   }
   .rubrik {
-    font-family:sandoval;
+    font-family: sandoval;
     font-size: 24px;
     color: #fff;
     margin-top: -13rem;
@@ -314,11 +290,11 @@ footer p {
     transform: scale(1.15)
   }
   .hr2 {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #fff;
     width: 18rem
   }
   .hr1 {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #fff;
     width: 100%
   }
   .sam {
@@ -340,24 +316,22 @@ footer p {
   }
 }
 @media (min-width:768px) {
-  .feed{
+  .feed {
     display: flex;
     margin-top: 7rem;
-    justify-content: center;
-    
-    }
+    justify-content: center
+  }
   .hr1 {
     border: 1px solid red;
     width: 45rem
   }
 }
 @media (min-width:992px) {
-  .feed{
+  .feed {
     display: flex;
     margin-top: 12rem;
-    justify-content: center;
-    
-    }
+    justify-content: center
+  }
   .svenska-button {
     width: 14rem;
     margin-top: -4rem;
@@ -370,7 +344,7 @@ footer p {
     width: 10rem;
     margin-top: -5.5rem
   }
-   .atg-button:hover {
+  .atg-button:hover {
     transform: scale(1.15)
   }
   .logga {
@@ -418,62 +392,56 @@ footer p {
     text-align: left
   }
   .hr1 {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #fff;
     width: 100%
   }
 }
 .kop {
   margin-top: -.4rem;
-  padding-top: .6rem ;
-  padding-bottom: .6rem ;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
   font-family: sandoval;
   letter-spacing: .3rem;
   text-transform: uppercase;
   color: gold;
-  background-color: black;
+  background-color: #000;
   font-size: 2.5rem;
   border-bottom: 2px solid #fff
 }
-
-
-@media (min-width:320px){
-
-  .feed{
+@media (min-width:320px) {
+  .feed {
     display: flex;
     margin-top: 9rem;
-    justify-content: center;
-    
-    }
-
+    justify-content: center
+  }
   .contactpage {
     width: 100%;
     height: 100%;
     text-align: center;
     background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
   }
-
   .homepage {
     width: 100%;
     height: 100%;
     text-align: center;
     background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
   }
-  .mediapage{
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
+  .mediapage {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
   }
   .aboutpage {
     width: 100%;
     height: 100%;
     text-align: center;
-      background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
+    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
   }
   .servicespage {
     width: 100%;
     height: 100%;
     text-align: center;
-      background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
+    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
   }
 }
