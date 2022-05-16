@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import img1 from './hämtning__1_-removebg-preview.png' 
-import img2 from './hämtning-removebg-preview.png'
+import img1 from './images/hämtning__1_-removebg-preview.png' 
+import img2 from './images/hämtning-removebg-preview.png'
 
 class Services extends Component {
 

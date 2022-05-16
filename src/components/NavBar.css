@@ -50,7 +50,7 @@
 }
 .nav-item {
   line-height: 40px;
-  margin-right: 1rem
+  margin-right: 1rem;
 }
 .nav-item:after {
   content: "";
