@@ -14,8 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  background-color: black;
+  width: 100%
 }
 .nav-logo {
   color: red;
@@ -30,23 +29,16 @@
 }
 .nav-menu {
   display: flex;
-  background-color: black;
   list-style: none;
   text-align: center;
-  margin-right: 1rem
+  margin-right: 10rem
 }
 .nav-links {
   color: #fff;
-  background-color: black;
   text-decoration: none;
   display: flex;
   height: 100%;
-  border-bottom: 3px solid transparent;
-  border: 1px solid red;
-  border-radius: 1rem;
-  font-family: 'Open', sans-serif;
-  font-weight: 570;
-  letter-spacing: 1px;
+  border-bottom: 3px solid transparent
 }
 .fa-code {
   margin-left: 1rem
@@ -78,41 +70,36 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 68%;
+    width: 90%;
     border-top: 1pxsolid #fff;
     position: absolute;
-    top: 37px;
-    background-color: black;
+    top: 80px;
     left: -110%;
     opacity: 1;
     transition: all .5s ease
-    
   }
   .nav-menu.active {
     background: 0 0;
-    left: 199;
+    left: 0;
     opacity: 1;
     transition: all .5s ease;
-    z-index: 1;
-
-
+    z-index: 1
   }
   .nav-item .active {
     color: #ffdd40;
     border: none
   }
   .nav-links {
-    padding: .2rem;
-    width: 50%;
-    display: table;
-
+    padding: 1.5rem;
+    width: 100%;
+    display: table
   }
   .nav-icon {
     display: block;
-    padding-top: 0rem;
+    padding-top: .4rem;
     position: absolute;
-    top: -4;
-    right: -17;
+    top: 0;
+    right: 0;
     transform: translate(-100%,60%);
     font-size: 1.8rem;
     cursor: pointer;
