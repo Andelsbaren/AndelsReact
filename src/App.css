@@ -24,7 +24,7 @@ body {
 }
 
 body {
-  background-color: #000;
+  background-color: #171717;
   transition: background-color .3s;
   scroll-behavior: smooth;
 }
@@ -418,15 +418,15 @@ justify-content:space-evenly;
     margin-top: -.4rem;
     padding-top: .6rem;
     padding-bottom: .6rem;
-    font-family: 'Alegreya Sans SC';
-    font-weight: 600;
+    font-family: 'Sandoval', sans-serif;
+  
     letter-spacing: .3rem;
     text-transform: uppercase;
     color: red;
-    background-color: #000;
+    background-color: #171717;
     font-size: 2rem;
     margin-left: -1rem;
-    border-bottom: 2px solid #fff
+    border-bottom: 2px solid red
   }
   .kop {
     margin-top: -.4rem;
@@ -438,8 +438,8 @@ justify-content:space-evenly;
     letter-spacing: .3rem;
     text-transform: uppercase;
     color: gold;
-    background-color: #000;
+    background-color: #171717;
     font-size: 2rem;
-    border-bottom: 2px solid #fff
+    border-bottom: 2px solid red
   }
 }

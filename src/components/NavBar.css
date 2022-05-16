@@ -3,7 +3,7 @@
 
 .navbar {
   font-family: 'Alegreya Sans SC';
-  background-color: #000;
+  background-color: #171717;
   display: flex;
   width: 100%;
   margin-left:1rem;
@@ -78,7 +78,7 @@
    align-items: flex-start;
     flex-direction: column;
     width: 50%;
-    border-top: 1pxsolid #fff;
+    border-top: 1px solid #fff;
     position: absolute;
     top: 40px;
     left: -110%;
