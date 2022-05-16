@@ -16,6 +16,7 @@ class Services extends Component {
         Andelsbarens portaler.
       </p>
     <div className="container">
+      <section className='svenska-button'>
       <a
         href="https://spela.svenskaspel.se/spela-tillsammans/ombudslag/23563-andelsbaren---spelhornan"
         target="_blank" >
@@ -23,12 +24,15 @@ class Services extends Component {
           className="svenska-button"
           src={img1}/>
       </a>
+          </section>
+          <section className='atg-button'>
+
       <a href="https://www.atg.se/spelhornansurahammar" target="_blank">
         <img
           className="atg-button"
           src={img2}/>
-        
       </a>
+          </section>
     </div>
 
 </div>
