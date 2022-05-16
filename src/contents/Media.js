@@ -4,7 +4,17 @@ class Media extends Component {
     render() {
         return (
             <div className="mediapage">
-             <p className="kop">Köp andelar</p>
+             <p className="kop">MEDIA</p>
+             <p class="textnormal">
+
+
+
+
+
+
+                 
+             </p>
+
             </div>
             )
         }
