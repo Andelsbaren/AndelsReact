@@ -86,7 +86,7 @@ const Carousel = ({ children }) => {
       if (!paused) {
         updateIndex(activeIndex + 1);
       }
-    }, 1000);
+    }, 3000);
 
     return () => {
       if (interval) {
