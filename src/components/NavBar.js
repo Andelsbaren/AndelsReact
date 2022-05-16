@@ -11,10 +11,10 @@ function NavBar() {
     <>    <div className="nav-container">
       <iframe width="100%" height="80" src="https://rss.app/embed/v1/ticker/09y6cjEy8Mtr1rJv" frameborder="0"></iframe></div>
       <nav className="navbar">
-
+{/* 
         <NavLink exact to="/" className="nav-logo">
-          ANDELSBAREN SPORT
-        </NavLink>
+          ANDELSBAREN
+        </NavLink> */}
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <NavLink

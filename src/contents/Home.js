@@ -5,7 +5,7 @@ class Home extends Component {
 
 <div className="homepage">
 
-      <p className="kop">ANDELSBAREN TRAV</p>
+      <p className="kophome">ANDELSBAREN</p>
      <div class="feed">
      <iframe width="1450" height="540"  src="https://rss.app/embed/v1/carousel/OCg3WyhfviGKqNp0" frameborder="0"></iframe>
      </div>

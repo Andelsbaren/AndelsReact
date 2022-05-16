@@ -19,7 +19,7 @@ class Services extends Component {
         target="_blank" >
         <img
           className="svenska-button"
-          src="/assets/img/img/hämtning__1_-removebg-preview.png"/>
+          src="/src/img/"/>
       </a>
       <a href="https://www.atg.se/spelhornansurahammar" target="_blank">
         <img
