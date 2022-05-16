@@ -4,7 +4,14 @@
   --color-4: #f1b211;
   --color-3: #027b9a;
   --color-5: #000
+
 }
+
+body {
+  font-family: 'Alegreya Sans SC';
+ }
+
+
 #stodlinjen {
   padding-top: 1rem;
   padding-left: .98rem
@@ -55,13 +62,7 @@ a:hover {
   justify-content: space-between;
   margin-top: 1.7rem
 }
-.slideshow-container {
-  max-width: 280px;
-  max-inline-size: 350px;
-  max-block-size: 350px;
-  position: relative;
-  margin: auto
-}
+
 .col-8 {
   position: relative;
   width: 100%;
@@ -82,22 +83,19 @@ a:hover {
   border: 3px solid red
 }
 @media (min-width:576px) {
-  .slideshow-container {
-    max-width: 540px
-  }
+
+
 }
 .Media {
   font-size: 2rem;
-  font-family: Sandoval;
+  font-family: 'Alegreya Sans SC';
   letter-spacing: .4rem;
   border-bottom: 2px solid #fff;
   text-transform: uppercase;
   color: gold
 }
 @media (min-width:768px) {
-  .slideshow-container {
-    max-width: 800px
-  }
+
   #pic {
     position: relative;
     max-height: 20.5rem;
@@ -107,9 +105,28 @@ a:hover {
   }
 }
 @media (min-width:992px) {
-  .slideshow-container {
-    max-width: 800px
-  }
+
+
+.socialmedia{
+padding-top:4rem;
+width: 500px;
+margin: 0 auto;
+display:flex;
+justify-content:space-evenly;
+
+}
+
+  .textnormal{
+    font-family: 'Alegreya Sans SC';
+    font-size: 18px;
+    font-weight: 300;
+     width:500px; 
+    margin: 0;
+   display:inline-block;
+  
+    
+    }
+
   .ticker {
     position: sticky
   }
@@ -260,6 +277,14 @@ a:hover {
   }
 }
 @media (min-width:992px) {
+  .container{
+    display:flex;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 3rem;
+
+  } 
+  
   .feed {
     display: flex;
     margin-top: 12rem;
@@ -267,15 +292,18 @@ a:hover {
   }
   .svenska-button {
     width: 14rem;
-    margin-top: -4rem;
-    margin-right: -25rem
+    margin-right: 4rem;
+    /* margin-top: 6rem;
+    margin-right: -25rem */
   }
   .svenska-button:hover {
     transform: scale(1.15)
   }
   .atg-button {
     width: 10rem;
-    margin-top: -5.5rem
+    margin-top: .5rem;
+    /* margin-top: -3.5rem
+    margin-left */
   }
   .atg-button:hover {
     transform: scale(1.15)
@@ -349,12 +377,14 @@ a:hover {
   }
   .contactpage {
     width: 100%;
+    height: 100%;
 
     text-align: center;
     background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
   }
   .homepage {
     width: 100%;
+    height: 100%;
 
     text-align: center;
     background: radial-gradient(circle at 1.4% 1.4% ,var(--color-2) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
@@ -362,26 +392,33 @@ a:hover {
   .mediapage {
     text-align: center;
     width: 100%;
+    height: 100%;
 
     background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
   }
   .aboutpage {
     width: 100%;
+    height: 100%;
 
     text-align: center;
     background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
   }
   .servicespage {
-    width: 100%;
+   width: 100%;
+    height: 100%;
  
     text-align: center;
     background: radial-gradient(circle at 5.4% 1.4% ,var(--color-1) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
   }
+
+
+
+
   .kophome {
     margin-top: -.4rem;
     padding-top: .6rem;
     padding-bottom: .6rem;
-    font-family:'Open sans';
+    font-family: 'Alegreya Sans SC';
     font-weight: 600;
     letter-spacing: .3rem;
     text-transform: uppercase;
@@ -395,7 +432,7 @@ a:hover {
     margin-top: -.4rem;
     padding-top: .6rem;
     padding-bottom: .6rem;
-    font-family:'Open sans';
+    font-family: 'Alegreya Sans SC';
     font-weight: 600;
     margin-left: -1rem;
     letter-spacing: .3rem;

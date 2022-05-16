@@ -1,9 +1,14 @@
+
+
+
 .navbar {
+  font-family: 'Alegreya Sans SC';
   background-color: #000;
   display: flex;
   width: 100%;
-  justify-content: center;
-  align-items: center;
+  margin-left:1rem;
+  justify-content: end;
+  align-items: baseline;
   font-size: 1rem;
   position: sticky;
   top: 0;
@@ -23,7 +28,7 @@
   justify-content: space-evenly;
   cursor: pointer;
   text-decoration: none;
-  font-family: sandoval;
+  font-family: 'Alegreya Sans SC';
   font-size: 3rem;
   flex-grow: 1
 }
@@ -69,18 +74,22 @@
 @media screen and (max-width:960px) {
   .nav-menu {
     display: flex;
+    font-family: 'Alegreya Sans SC';
+   align-items: flex-start;
     flex-direction: column;
-    width: 90%;
+    width: 50%;
     border-top: 1pxsolid #fff;
     position: absolute;
-    top: 80px;
+    top: 40px;
     left: -110%;
+    
     opacity: 1;
     transition: all .5s ease
   }
   .nav-menu.active {
     background: 0 0;
-    left: 0;
+    background-color: #000;
+    left: 124;
     opacity: 1;
     transition: all .5s ease;
     z-index: 1
@@ -90,7 +99,7 @@
     border: none
   }
   .nav-links {
-    padding: 1.5rem;
+    padding: .5rem;
     width: 100%;
     display: table
   }

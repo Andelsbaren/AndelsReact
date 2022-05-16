@@ -6,15 +6,15 @@ class AbousUs extends Component {
   <div className="aboutpage">
 
 
-      <p className="kop">Om ANDELSBAREN</p>
-         <p> Andelsbaren samarbetar med ATG- och Svenska Spel ombudet Spelhörnan i
+      <p className="kop">Om OSS</p>
+         <p class="textnormal"> Andelsbaren samarbetar med ATG- och Svenska Spel ombudet Spelhörnan i
           Surahammar.
-        
+        <br></br>
           Vi erbjuder en rad olika spel på trav och sportspel. 
-    
+    <p>
           Vi har flera av landets bästa spelläggare som komponerar spel på
           sajten ATG-Tillsammans och på Svenska Spel Tillsammans.
- 
+          </p>
           Här hittar ni andelsspel från 5KR.
         </p>
     

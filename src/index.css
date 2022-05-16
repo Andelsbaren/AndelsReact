@@ -2,7 +2,10 @@
 html {
   scroll-behavior: smooth;
 }
+body{
 
+
+font-family: 'Alegreya Sans SC';}
 
 
 
@@ -15,7 +18,7 @@ section {
 
 .dummy-text {
   color: #3c3b3b;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Alegreya Sans SC';
 
   font-size: 20px;
   line-height: 1.5;
@@ -30,14 +33,15 @@ footer {
   background-color: #171717;
    padding-left: 1rem; 
    padding-right: .5rem;
-   padding-top: 1rem;
-   font-family: 'Open Sans', sans-serif;
+   padding-top: 4rem;
+   font-family: 'Alegreya Sans SC';
   border-bottom: 1px solid white;
   border-top: 1px solid white;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   position: fixed;
   width: 100%;
   bottom: 0;
+  max-height:7rem;
   
 
 }
@@ -50,9 +54,11 @@ footer {
   }
 
   footer .row {
- 
+ display:flex;
       color: #fff;
       position: relative;
+      justify-content: center;
+      flex-wrap:wrap;
 
   }
   
@@ -165,6 +171,7 @@ footer {
   }
 
   .social-links {
+     
       bottom: 44px;
      
       left: 0;
@@ -250,7 +257,7 @@ footer {
 
   footer{
     position: fixed;
-    max-height: 0%;
+   
     width: 100%;
     bottom: 0;
   }
@@ -392,7 +399,8 @@ footer {
   }
   
   footer {
-      padding: 3em 2em 2em;
+      /* padding:  3.5rem; */
+      position:fixed;
   }
 }
 
@@ -407,6 +415,8 @@ footer {
   footer {
       padding-right: 1em;
       padding-left: 1em;
+
+      position:fixed;
       
   }
 }
