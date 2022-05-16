@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import img1 from './hämtning__1_-removebg-preview.png' 
+import img2 from './hämtning-removebg-preview.png'
 
 class Services extends Component {
 
@@ -19,13 +21,13 @@ class Services extends Component {
         target="_blank" >
         <img
           className="svenska-button"
-          src="/assets/img/img/hämtning__1_-removebg-preview.png"/>
+          src={img1}/>
       </a>
       <a href="https://www.atg.se/spelhornansurahammar" target="_blank">
         <img
           className="atg-button"
-          src="/assets/img/img/hämtning-removebg-preview.png"
-        />
+          src={img2}/>
+        
       </a>
     </div>
 
