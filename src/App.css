@@ -357,7 +357,7 @@ a:hover {
     width: 100%;
 
     text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
+    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-2) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
   }
   .mediapage {
     text-align: center;
@@ -375,8 +375,33 @@ a:hover {
     width: 100%;
  
     text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
+    background: radial-gradient(circle at 5.4% 1.4% ,var(--color-1) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
   }
-
- 
+  .kophome {
+    margin-top: -.4rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    font-family:'Open sans';
+    font-weight: 600;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    color: red;
+    background-color: #000;
+    font-size: 2rem;
+    margin-left: -1rem;
+    border-bottom: 2px solid #fff
+  }
+  .kop {
+    margin-top: -.4rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    font-family:'Open sans';
+    font-weight: 600;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    color: gold;
+    background-color: #000;
+    font-size: 2rem;
+    border-bottom: 2px solid #fff
+  }
 }
