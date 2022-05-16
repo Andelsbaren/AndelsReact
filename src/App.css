@@ -48,14 +48,7 @@ a:hover {
   color: red
 }
 
-.link-buttons {
-  display: flex;
-  justify-content: space-around;
-  max-width: 40%;
-  padding-left: 3px;
-  padding-top: 1.5rem;
-  background-color: transparent
-}
+
 .footer-responsibility {
   display: flex;
   flex-direction: column;
@@ -90,7 +83,7 @@ a:hover {
   font-size: 2rem;
   font-family: 'Alegreya Sans SC';
   letter-spacing: .4rem;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid red;
   text-transform: uppercase;
   color: gold
 }
@@ -158,71 +151,13 @@ justify-content:space-evenly;
 .atg-button:hover {
   transform: scale(1.019)
 }
-.adress {
-  font-size: small
-}
-.headertext {
-  color: #000;
-  padding-top: 10rem;
-  font-size: 1.4rem;
-  margin-top: -10rem
-}
-.system {
-  color: #fff;
-  font-family: sandoval;
-  padding-top: 8rem;
-  font-size: 1rem;
-  padding-bottom: 0;
-  margin-top: -7rem;
-  letter-spacing: .4rem;
-  text-transform: uppercase
-}
+
 }
 @media (max-width:576px) {
   .feed {
     display: flex;
     margin-top: 3rem;
     justify-content: center
-  }
-  .ossom {
-    border-bottom: 2px solid #fff;
-    color: gold;
-    font-family: sandoval;
-    letter-spacing: .4rem;
-    font-size: 1.5rem;
-    text-transform: uppercase
-  }
-  #about {
-    margin-bottom: 11rem
-  }
-  .logga2 {
-    margin-top: -9rem;
-    margin-bottom: 1rem;
-    width: 320px
-  }
-  .andelsbaren {
-    font-family: sandoval;
-    font-style: italic;
-    letter-spacing: .3rem;
-    text-transform: uppercase;
-    color: #fff;
-    padding-top: 11rem;
-    font-size: 2rem
-  }
-  .logga {
-    width: opx;
-    height: 0
-  }
-  .header2 {
-    margin-top: 6rem;
-    border-bottom: 2px solid red
-  }
-  .rubrik {
-    font-family: sandoval;
-    font-size: 24px;
-    color: #fff;
-    margin-top: -13rem;
-    padding-bottom: .5rem
   }
 
   .svenska-button {
@@ -239,31 +174,8 @@ justify-content:space-evenly;
   .atg-button:hover {
     transform: scale(1.15)
   }
-  .hr2 {
-    border: 1px solid #fff;
-    width: 18rem
-  }
-  .hr1 {
-    border: 1px solid #fff;
-    width: 100%
-  }
-  .sam {
-    height: 100%;
-    padding-top: 2.5rem;
-    border-radius: 3rem;
-    border-top-left-radius: 4rem;
-    border-top-right-radius: 4rem
-  }
-  .omoss {
-    font-size: 16px
-  }
-  #contact {
-    font-family: Sandoval;
-    padding-bottom: 12rem;
-    margin-bottom: -3rem;
-    text-transform: uppercase;
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25% ,transparent 45%)
-  }
+
+  
 }
 @media (min-width:768px) {
   .feed {
@@ -271,10 +183,7 @@ justify-content:space-evenly;
     margin-top: 7rem;
     justify-content: center
   }
-  .hr1 {
-    border: 1px solid red;
-    width: 45rem
-  }
+
 }
 @media (min-width:992px) {
   .container{
@@ -308,54 +217,8 @@ justify-content:space-evenly;
   .atg-button:hover {
     transform: scale(1.15)
   }
-  .logga {
-    height: 8rem;
-    width: 8rem
-  }
-  .ossom {
-    border-bottom: 2px solid #000;
-    color: gold;
-    font-family: sandoval;
-    letter-spacing: .4rem;
-    font-size: 2.5rem;
-    text-transform: uppercase
-  }
-  .rubrik {
-    font-family: Sandoval;
-    font-size: 44px;
-    color: #fff
-  }
-  #contact {
-    font-family: sandoval;
-    padding-bottom: 43rem;
-    margin-bottom: 20rem;
-    text-transform: uppercase;
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25% ,transparent 45%)
-  }
-  .andelsbaren {
-    font-family: sandoval;
-    font-style: italic;
-    letter-spacing: .3rem;
-    text-transform: uppercase;
-    color: #fff;
-    padding-top: 13rem;
-    font-size: 3rem
-  }
-  .sam {
-    border-radius: 3rem;
-    margin-bottom: 12rem;
-    height: 80%;
-    width: 40%
-  }
-  .omoss {
-    font-size: 24px;
-    letter-spacing: .3rem;
-    text-align: left
-  }
-  .hr1 {
-    border: 1px solid #fff;
-    width: 100%
-  }
+
+ 
 }
 .kop {
   margin-top: -.4rem;
@@ -429,17 +292,17 @@ justify-content:space-evenly;
     border-bottom: 2px solid red
   }
   .kop {
-    margin-top: -.4rem;
-    padding-top: .6rem;
-    padding-bottom: .6rem;
-    font-family: 'Sandoval', sans-serif;
- 
-    margin-left: -1rem;
+
+    font-family:'sandoval';
+                                                                              
+                                                
+
     letter-spacing: .3rem;
     text-transform: uppercase;
-    color: gold;
+    color: white;
     background-color: #171717;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
     border-bottom: 2px solid red
   }
 }

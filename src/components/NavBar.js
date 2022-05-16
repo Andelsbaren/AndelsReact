@@ -1,4 +1,4 @@
-
+import img1 from './BAS.jpg'
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
@@ -9,7 +9,9 @@ function NavBar() {
   const handleClick = () => setClick(!click);
   return (
     <>    <div className="nav-container">
-      <iframe width="100%" height="80" src="https://rss.app/embed/v1/ticker/09y6cjEy8Mtr1rJv" frameborder="0"></iframe></div>
+        <img
+          className="navbar-logo"
+          src={img1}/></div>
       <nav className="navbar">
 {/* 
         <NavLink exact to="/" className="nav-logo">
