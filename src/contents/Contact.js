@@ -8,7 +8,12 @@ class Contact extends Component {
             <div className="contactpage">
 
       <p className="kop">KONTAKTA OSS</p>
-
+          <p class="textnormal">Andelsbaren är aktiv på flera sociala medier. <p>
+          Vill du komma i kontakt med oss eller kanske vill du ansöka om att bli spelläggare hos oss.</p>
+         <p> Oavsett vad så
+          är du varmt välkommen att höra av dig!</p></p>
+          <br></br>
+          <div className="socialmedia">
   <a
     className="nav-social-icons-container"
     href=""
@@ -52,6 +57,7 @@ class Contact extends Component {
   >
     <i className="fa fa-instagram fa-3x" />
   </a>
+  </div>
 </div>
             )
         }

@@ -8,15 +8,15 @@ class Services extends Component {
         return (
             <div className="servicespage">
       <p className="kop">Köp andelar</p>
-      <br/><p>
+      <br/>    <p class="textnormal">
         Andelsbaren är aktiv på de två dominerande spelplattformarna ATG
         Tillsammans samt Svenska Spels Spela Tillsammans.
         <br />
         <br /> Klicka på någon av länkarna nedan för att komma dirket till
         Andelsbarens portaler.
       </p>
-    <div className="container">
-      <section className='svenska-button'>
+      <div className="container"> 
+     <section className='svenska-button'> 
       <a
         href="https://spela.svenskaspel.se/spela-tillsammans/ombudslag/23563-andelsbaren---spelhornan"
         target="_blank" >
@@ -24,18 +24,18 @@ class Services extends Component {
           className="svenska-button"
           src={img1}/>
       </a>
-          </section>
-          <section className='atg-button'>
+           </section>
+           <section className='atg-button'>
 
       <a href="https://www.atg.se/spelhornansurahammar" target="_blank">
         <img
           className="atg-button"
           src={img2}/>
       </a>
-          </section>
+         </section> 
     </div>
 
-</div>
+  </div>
             )
         }
     }
