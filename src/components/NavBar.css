@@ -1,19 +1,118 @@
 
+ .container {
+ 
+  max-width: 500px;
+  margin: auto;
+  margin-top: 3rem
+}
+
+.socialmedia {
+  padding-top: 4rem;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly
+}
+
+.textnormal {
+  font-family: 'Alegreya Sans SC';
+  font-size: 18px;
+  font-weight: 300;
+
+  padding:1rem;
+  margin: 0;
+  display: inline-block
+}
+
+.svenska-button {
+  margin-right: 5rem
+}
+
+.svenska-button:hover {
+  transform: scale(1.15)
+}
+
+.atg-button {
+  margin-top: .5rem
+}
+
+.atg-button:hover {
+  transform: scale(1.15)
+}
+
+
+.svenska-button {
+margin-left: 3.5rem
+}
+
+.atg-button {
+margin-top: -1.5rem;
+margin-left: 6.5rem
+}
+
+.contactpage {
+width: 100%;
+height: 100%;
+text-align: center;
+background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+}
+
+.homepage {
+width: 100%;
+height: 100%;
+text-align: center;
+background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+}
+
+
+.mediapage {
+width: 100%;
+height: 100%;
+text-align: center;
+background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+}
+
+.aboutpage {
+width: 100%;
+height: 100%;
+text-align: center;
+background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+}
+
+.servicespage {
+width: 100%;
+height: 100%;
+text-align: center;
+background-color: #000;
+
+}
+
+.kophome {
+margin-top: -.4rem;
+padding-top: .6rem;
+padding-bottom: .6rem;
+font-family: Sandoval, sans-serif;
+border-top: 2px solid #fff;
+letter-spacing: .2rem;
+text-transform: uppercase;
+color: #fff;
+background-color: #da0505;
+font-size: 2rem;
+padding-left: 1rem;
+border-bottom: 2px solid #fff
+}
 
 
 .navbar {
   font-family: 'Alegreya Sans SC';
   background-color: #171717;
   display: flex;
-  width: 100%;
-  margin-left:1rem;
+
+
   justify-content: end;
   align-items: baseline;
   font-size: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  max-height: 0.5rem;
+
 }
 
 .nav-logo {
@@ -24,20 +123,18 @@
   cursor: pointer;
   text-decoration: none;
   font-family: 'Alegreya Sans SC';
-  font-size: 3rem;
-  flex-grow: 1;}
+  font-size: 3rem
+}
 
-  .texten{
-
-color: red;
-font-family: 'sandoval';
-font-size:22px;
-flex-grow: 1;
-
-align-items: center;
-display: flex;
-justify-content: space-evenly;
-  }
+.texten {
+  color: red;
+  font-family: sandoval;
+  font-size: 22px;
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly
+}
 
 .nav-menu {
   display: flex;
@@ -45,6 +142,7 @@ justify-content: space-evenly;
   text-align: center;
   margin-right: 10rem
 }
+
 .nav-links {
   color: #fff;
   text-decoration: none;
@@ -52,92 +150,120 @@ justify-content: space-evenly;
   height: 100%;
   border-bottom: 3px solid transparent
 }
+
 .fa-code {
   margin-left: 1rem
 }
+
 .nav-item {
   line-height: 40px;
-  margin-right: 1rem;
+  margin-right: 1rem
 }
+
 .nav-item:after {
   content: "";
   display: block;
   height: 3px;
   width: 0;
   background: 0 0;
-  transition: width .7s ease,background-color .5s ease
+
 }
+
 .nav-item:hover:after {
   width: 100%;
   background: #ffdd40
 }
+
 .nav-item .active {
   color: red;
   border: 1px solid #ffdd40
 }
+
 .nav-icon {
   display: none
 }
+
 @media screen and (max-width:960px) {
   .nav-menu {
     display: flex;
     font-family: 'Alegreya Sans SC';
-   align-items: flex-start;
+    align-items: flex-start;
     flex-direction: column;
-    width: 50%;
-    border-top: 1px solid red;
+    width: 32%;
+
     position: absolute;
-    top: 40px;
-    left: -110%;
-    
-    opacity: 1;
-    transition: all .5s ease
+    top: 68px;
+    right: 80%;
+    background-color: #171717;
+ 
   }
+
   .nav-menu.active {
-    background: 0 0;
-    background-color: #000;
-    left: 124;
-    opacity: 1;
-    transition: all .5s ease;
-    z-index: 1
+ 
+    left: 210;
+    background-color: #171717;
+
+    margin-top: 3rem;
+  
+    border: 2px solid white;
+    z-index: 2;
+    opacity: 90%;
   }
+
   .nav-item .active {
     color: #ffdd40;
     border: none
   }
+
   .nav-links {
     padding: .5rem;
     width: 100%;
     display: table
   }
+
   .nav-icon {
     display: block;
-    padding-top: .4rem;
+
     position: absolute;
-    top: -20px;
-    right: 0;
-    transform: translate(-100%,60%);
+    top: 56px;
+    right: -12;
+    transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #fff
+    color: #fff;
+    z-index: 2;
+
+  }
+  .nav-horse {
+    display: block;
+
+    position: absolute;
+    top: 55px;
+    left: -16;
+z-index:0;
+
+    cursor: pointer;
+  
   }
 }
+
 .navbar-logo {
   max-width: 3.5rem;
   max-height: 3.5rem;
   border-radius: 4rem;
-margin-right:19.5rem;
-flex-grow: 1;
+  margin-right: 19.5rem;
+  flex-grow: 1;
   margin-bottom: 0;
   color: red;
-
-  
-  border: 3px solid red
+  border: 1px solid black
 }
 
 .nav-container {
-margin-top: -.5rem;
+
+  height: auto;
+
   width: auto;
-margin-left:-13rem;
-position:sticky;
+ 
+  position: sticky;
+
 }

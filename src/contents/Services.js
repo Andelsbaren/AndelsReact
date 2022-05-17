@@ -7,15 +7,15 @@ class Services extends Component {
     render() {
         return (
             <div className="servicespage">
-      <p className="kop">Köp andelar</p>
+      <p className="kophome">Köp andelar</p>
             {/* <img
           className="navbar-logo"
           src={img1}/> */}
-      <br/>    <p class="textnormal">
-        Andelsbaren är aktiv på de två dominerande spelplattformarna ATG
-        Tillsammans samt Svenska Spels Spela Tillsammans.
-        <br />
-        <br /> Klicka på någon av länkarna nedan för att komma dirket till
+ <p class="textnormal"><br/><br/><br/><br/><br/><br/>
+        {/* Andelsbaren är aktiv på de två dominerande spelplattformarna ATG
+        Tillsammans samt Svenska Spels Spela Tillsammans. */}
+    
+    Klicka på någon av länkarna nedan för att komma dirket till
         Andelsbarens portaler.
       </p>
       <div className="container"> 

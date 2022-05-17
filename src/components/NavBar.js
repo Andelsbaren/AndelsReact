@@ -9,7 +9,7 @@ function NavBar() {
   const handleClick = () => setClick(!click);
   return (
     <>    <div className="nav-container">
-<iframe width="100%" height="60" src="https://rss.app/embed/v1/ticker/o1TetTZmrXJdzNIJ" frameborder="0"></iframe>
+<iframe width="100%" height="60" src="https://rss.app/embed/v1/ticker/OwveWzueq6zx2aSI" frameborder="0"></iframe>
    </div> 
       <nav className="navbar">
 {/* 
@@ -18,9 +18,7 @@ function NavBar() {
         </NavLink> */}
   
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-                {/* <img
-          className="navbar-logo"
-          src={img1}/>  */}
+     
           <li className="nav-item">
          
             <NavLink
@@ -63,7 +61,7 @@ function NavBar() {
               className="nav-links"
               onClick={handleClick}
             >
-              Kontakta oss
+              Andelsspel
             </NavLink>
           </li>
         </ul>
@@ -71,6 +69,9 @@ function NavBar() {
           <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
 
         </div>
+            <div className="nav-horse"><img
+          className="navbar-logo"
+          src={img1}/> </div>
       </nav>
     </>
   );

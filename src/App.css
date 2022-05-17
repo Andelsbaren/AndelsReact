@@ -3,57 +3,22 @@
   --color-2: red;
   --color-4: #f1b211;
   --color-3: #027b9a;
-  --color-5: #000
+  --color-5: #000;
 
 }
 
 body {
-  font-family: 'Alegreya Sans SC';
- }
-
-
-#stodlinjen {
-  padding-top: 1rem;
-  padding-left: .98rem
-}
-#spelpaus {
-  padding-top: 1rem
-}
-#ansvarsfullt {
-  padding-left: 10px
+  margin: 0 auto;
+  background-color: #171717
 }
 
-body {
-  background-color: #171717;
-  transition: background-color .3s;
-  scroll-behavior: smooth;
-}
-h1,
-h2,
-h4 {
-  color: red;
-  padding: 1rem
-}
+
 p {
-  color: #fff
-}
-
-a {
-  transition: all .2s ease-in-out;
-  color: #fff
-}
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: red
-}
-
-
-.footer-responsibility {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 1.7rem
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  padding: .5rem
 }
 
 .col-8 {
@@ -66,6 +31,7 @@ a:hover {
   border-radius: 1rem;
   box-shadow: #000
 }
+
 .navbar-logo {
   max-width: 10rem;
   max-height: 10rem;
@@ -73,270 +39,91 @@ a:hover {
   display: flex;
   margin-bottom: 0;
   margin-left: 1rem;
-  border: 3px solid red
-}
-@media (min-width:576px) {
-
-
-}
-/* .Media {
-  font-size: 2rem;
-  font-family: 'Alegreya Sans SC';
-  letter-spacing: .4rem;
-  border-bottom: 2px solid red;
-  text-transform: uppercase;
-  color: gold
-} */
-@media (min-width:768px) {
-
-  #pic {
-    position: relative;
-    max-height: 20.5rem;
-    min-height: 20.5rem;
-    max-width: 90%;
-    min-width: 90%
-  }
+  border: 3px solid white
 }
 
 @media (min-width:1500px) {
+  .svenska-button:hover {
+    transform: scale(1.019)
+  }
 
-
-.svenska-button:hover {
-  transform: scale(1.019)
-}
-.atg-button:hover {
-  transform: scale(1.019)
+  .atg-button:hover {
+    transform: scale(1.019)
+  }
 }
 
-}
 @media (max-width:576px) {
   .feed {
     display: flex;
-    margin-top: 1rem;
-    justify-content: center
-  }
-
-  /* .svenska-button {
-  
-    margin-top: 1rem;
-    margin-left: 1.2rem;
-  }
-  .atg-button {
-
-    margin-top: -2.55rem;
-    margin-left: 6rem;
-    height: 28%;
-  }
-  .atg-button:hover {
-    transform: scale(1.15)
-  } */
-
-  
-}
-@media (min-width:768px) {
-  .feed {
-    /* display: flex;
-    margin-top: 7rem;
-    justify-content: center */
-  }
-
-}
-@media (min-width:992px) {
-  .container{
-    display:flex;
-    max-width: 500px;
-    margin: auto;
-    margin-top: 3rem;
-
-  } 
-  .socialmedia{
-    padding-top:4rem;
-    width: 500px;
-    margin: 0 auto;
-    display:flex;
-    justify-content:space-evenly;
-    
-    }
-    
-      .textnormal{
-        font-family: 'Alegreya Sans SC';
-        font-size: 18px;
-        font-weight: 300;
-         width:500px; 
-        margin: 0;
-       display:inline-block;
-      
-        
-        }
-    
-      .ticker {
-        position: sticky
-      }
-      #pic {
-        position: relative;
-        max-height: 20.5rem;
-        min-height: 20.5rem;
-        max-width: 90%;
-        min-width: 90%
-      }
-      .footer-responsibility {
-        display: flex;
-        flex-direction: row;
-        width: 50%
-      }
-      #ansvarsfullt {
-        margin-top: 1rem
-      }
-    
-    
-  
-  .feed {
-    /* display: flex;
-    margin-top: 12rem;
-    justify-content: center */
-  }
-  .svenska-button {
-   
-    margin-right: 5rem;
-    /* margin-top: 6rem;
-    margin-right: -25rem */
-  }
-  .svenska-button:hover {
-    transform: scale(1.15)
-  }
-  .atg-button {
-   
-    margin-top: .5rem;
-    /* margin-top: -3.5rem
-    margin-left */
-  }
-  .atg-button:hover {
-    transform: scale(1.15)
-  }
-
- 
-}
-.kop {
-  margin-top: -.4rem;
-  padding-top: .6rem;
-  padding-bottom: .6rem;
-  font-family: sandoval;
-  letter-spacing: .3rem;
-  text-transform: uppercase;
-  color: gold;
-  background-color: #000;
-  font-size: 2.5rem;
-  border-bottom: 2px solid #fff
-}
-@media (min-width:320px) {
-  .feed {
-
-    display: flex;
-    margin-top: -1rem;
+    margin-top: -1.9rem;
     justify-content: center
   }
   .contactpage {
     width: 100%;
     height: 100%;
-
     text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25% ,transparent 45%)
+    background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
   }
+
   .homepage {
     width: 100%;
     height: 100%;
-
     text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25% ,transparent 45%)
+    background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
   }
 
 
+.mediapage {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+}
 
+.aboutpage {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
+}
+
+.servicespage {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-image: url('/src/img/samarberte.png');
+  background-position:top;
+  background-position-y: top;
+background-repeat: no-repeat;
+background-size:contain ;
 
 }
-/* .kop {
-  font-family: sandoval;
-  letter-spacing: -.1rem;
+
+.kophome {
+  margin-top: -.4rem;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  font-family: Sandoval, sans-serif;
+  border-top: 2px solid #fff;
+  letter-spacing: .2rem;
   text-transform: uppercase;
-  color: gold;
-  font-size: 2.5rem;
+  color: #fff;
+  background-color: #da0505;
+  font-size: 2rem;
+padding-left: 1rem;
   border-bottom: 2px solid #fff
-} */
-/* #about {
-  margin-top: 13rem;
-  margin-bottom: -22rem;
-  background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 20%),radial-gradient(circle at 5.5% 3%,var(--color-1) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
 }
 
 
-  #download {
-    text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
-  } */
-  
 
-
-  
-  .mediapage {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25% ,transparent 45%)
-  }
-  .aboutpage {
-    width: 100%;
-    height: 100%;
-
-    text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25% ,transparent 45%)
-  }
-  .servicespage {
-   width: 100%;
-    height: 100%;
- 
-    text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25% ,transparent 45%)
-  }
-
-
-
-
-  .kophome {
-    margin-top: -.4rem;
-    padding-top: .6rem;
-    padding-bottom: .6rem;
-    font-family: 'Sandoval', sans-serif;
-  
-    letter-spacing: .2rem;
-    text-transform: uppercase;
-    color: red;
-    background-color: #171717;
-    font-size: 2rem;
-    margin-left: -1rem;
-    border-bottom: 2px solid red
-  }
-  .kop {
-
-    font-family:'sandoval';
-                                                                              
-                                                
-
-    letter-spacing: .2rem;
-    text-transform: uppercase;
-    color: red;
-    background-color: #171717;
-    font-size: 1.5rem;
-    font-weight: 500;
-    border-bottom: 2px solid red
-  }
-.svenska-button{
-margin-left: 3.5rem;
-
-
+.svenska-button {
+  margin-left: 3.5rem
 }
-.atg-button{
+
+.atg-button {
   margin-top: -1.5rem;
-  margin-left: 6.5rem;
-  
+  margin-left: 6.5rem
 }
+}
+
+

@@ -16,7 +16,7 @@ class Media extends Component {
     render() {
         return (
             <div className="mediapage">
-             <p className="kop">MEDIA</p>
+             <p className="kophome">MEDIA</p>
 
              <div className='Media'>
                  <Carousel>
