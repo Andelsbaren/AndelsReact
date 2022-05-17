@@ -79,14 +79,14 @@ a:hover {
 
 
 }
-.Media {
+/* .Media {
   font-size: 2rem;
   font-family: 'Alegreya Sans SC';
   letter-spacing: .4rem;
   border-bottom: 2px solid red;
   text-transform: uppercase;
   color: gold
-}
+} */
 @media (min-width:768px) {
 
   #pic {

@@ -1,5 +1,6 @@
 .carousel{
     overflow: hidden;
+    
 }
 
 .inner{
@@ -9,14 +10,16 @@
 
 .carousel-item {
     display: inline-flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
-    height: 200px;
+    height: 250px;
     background-color: none;
     color: #fff;
-    width: 200px;
+    flex-direction: column-reverse;
+  
+  
+  
 }
-
 .indicators {
     display: flex;
     justify-content: center;
@@ -26,8 +29,11 @@
   
   .indicators > button {
     margin: 5px;
-    background-color: white;
+    background-color: red;
+    color: white;
     border-radius: 15px;
+    font-family: 'sandoval';
+  
   }
 
   .indicators > button:hover{
@@ -35,8 +41,8 @@
   }
   
   .indicators > button.active {
-    background-color: green;
-    color: #fff;
+    background-color: black;
+    color: white;
   }
 
 
@@ -46,4 +52,10 @@
       
 
     }
+  } */
+/* 
+  .media{
+    min-width: 300px;
+    min-height: 400px;
+
   } */
