@@ -97,51 +97,7 @@ a:hover {
     min-width: 90%
   }
 }
-@media (min-width:992px) {
 
-
-.socialmedia{
-padding-top:4rem;
-width: 500px;
-margin: 0 auto;
-display:flex;
-justify-content:space-evenly;
-
-}
-
-  .textnormal{
-    font-family: 'Alegreya Sans SC';
-    font-size: 18px;
-    font-weight: 300;
-     width:500px; 
-    margin: 0;
-   display:inline-block;
-  
-    
-    }
-
-  .ticker {
-    position: sticky
-  }
-  #pic {
-    position: relative;
-    max-height: 20.5rem;
-    min-height: 20.5rem;
-    max-width: 90%;
-    min-width: 90%
-  }
-  .footer-responsibility {
-    display: flex;
-    flex-direction: row;
-    width: 50%
-  }
-  #ansvarsfullt {
-    margin-top: 1rem
-  }
-
-
-
-}
 @media (min-width:1500px) {
 
 
@@ -161,12 +117,12 @@ justify-content:space-evenly;
   }
 
   .svenska-button {
-    width: 9rem;
+  
     margin-top: 1rem;
     margin-left: 1.2rem;
   }
   .atg-button {
-    width: 6rem;
+
     margin-top: -2.55rem;
     margin-left: 6rem;
     height: 28%;
@@ -193,6 +149,46 @@ justify-content:space-evenly;
     margin-top: 3rem;
 
   } 
+  .socialmedia{
+    padding-top:4rem;
+    width: 500px;
+    margin: 0 auto;
+    display:flex;
+    justify-content:space-evenly;
+    
+    }
+    
+      .textnormal{
+        font-family: 'Alegreya Sans SC';
+        font-size: 18px;
+        font-weight: 300;
+         width:500px; 
+        margin: 0;
+       display:inline-block;
+      
+        
+        }
+    
+      .ticker {
+        position: sticky
+      }
+      #pic {
+        position: relative;
+        max-height: 20.5rem;
+        min-height: 20.5rem;
+        max-width: 90%;
+        min-width: 90%
+      }
+      .footer-responsibility {
+        display: flex;
+        flex-direction: row;
+        width: 50%
+      }
+      #ansvarsfullt {
+        margin-top: 1rem
+      }
+    
+    
   
   .feed {
     /* display: flex;
@@ -200,8 +196,8 @@ justify-content:space-evenly;
     justify-content: center */
   }
   .svenska-button {
-    width: 14rem;
-    margin-right: 4rem;
+   
+    margin-right: 5rem;
     /* margin-top: 6rem;
     margin-right: -25rem */
   }
@@ -209,7 +205,7 @@ justify-content:space-evenly;
     transform: scale(1.15)
   }
   .atg-button {
-    width: 10rem;
+   
     margin-top: .5rem;
     /* margin-top: -3.5rem
     margin-left */
@@ -334,3 +330,13 @@ justify-content:space-evenly;
     font-weight: 500;
     border-bottom: 2px solid red
   }
+.svenska-button{
+margin-left: 3.5rem;
+
+
+}
+.atg-button{
+  margin-top: -1.5rem;
+  margin-left: 6.5rem;
+  
+}

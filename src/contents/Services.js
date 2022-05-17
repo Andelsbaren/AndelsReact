@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import img1 from './images/hämtning__1_-removebg-preview.png' 
-import img2 from './images/hämtning-removebg-preview.png'
+import img1 from './images/svenskaspel_square.avif' 
+import img2 from './images/atg-money-icon-rect-60x60-01 (2).svg'
 
 class Services extends Component {
 
@@ -24,7 +24,7 @@ class Services extends Component {
         href="https://spela.svenskaspel.se/spela-tillsammans/ombudslag/23563-andelsbaren---spelhornan"
         target="_blank" >
         <img
-          className="svenska-button"
+          className="svenska-button" width="50px" height="50px"
           src={img1}/>
       </a>
            </section>
@@ -32,7 +32,7 @@ class Services extends Component {
 
       <a href="https://www.atg.se/spelhornansurahammar" target="_blank">
         <img
-          className="atg-button"
+          className="atg-button" width="50px" height="50px"
           src={img2}/>
       </a>
          </section> 
