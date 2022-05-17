@@ -244,7 +244,7 @@ justify-content:space-evenly;
     height: 100%;
 
     text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
+    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25% ,transparent 45%)
   }
   .homepage {
     width: 100%;
@@ -253,53 +253,32 @@ justify-content:space-evenly;
     text-align: center;
     background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25% ,transparent 45%)
   }
-  .andelsbaren {
-    font-family: sandoval;
-    font-style: italic;
-    letter-spacing: .3rem;
-    text-transform: uppercase;
-    color: #fff;
-    padding-top: 13rem;
-    font-size: 3rem
-  }
-  .sam {
-    border-radius: 3rem;
-    margin-bottom: 12rem;
-    height: 80%;
-    width: 40%
-  }
-  .omoss {
-    font-size: 24px;
-    letter-spacing: .3rem;
-    text-align: left
-  }
-  .hr1 {
-    border: 1px solid rgb(255, 255, 255);
-    width: 100%
-  }
+
+
+
+
 }
-.kop {
+/* .kop {
   font-family: sandoval;
   letter-spacing: -.1rem;
   text-transform: uppercase;
   color: gold;
   font-size: 2.5rem;
   border-bottom: 2px solid #fff
-}
-#about {
+} */
+/* #about {
   margin-top: 13rem;
   margin-bottom: -22rem;
   background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 20%),radial-gradient(circle at 5.5% 3%,var(--color-1) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
 }
 
-@media (min-width:320px){
 
   #download {
     text-align: center;
     background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
-  }
+  } */
   
-}
+
 
   
   .mediapage {
@@ -307,21 +286,21 @@ justify-content:space-evenly;
     width: 100%;
     height: 100%;
 
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
+    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25% ,transparent 45%)
   }
   .aboutpage {
     width: 100%;
     height: 100%;
 
     text-align: center;
-    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
+    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25% ,transparent 45%)
   }
   .servicespage {
    width: 100%;
     height: 100%;
  
     text-align: center;
-    background: radial-gradient(circle at 5.4% 1.4% ,var(--color-1) 3%,transparent 30%),radial-gradient(circle at 5.5% 3%,var(--color-1) 30% ,transparent 45%),radial-gradient(circle at 2.5% 3.5%,var(--color-1) 25% ,transparent 45%)
+    background: radial-gradient(circle at 1.4% 1.4% ,var(--color-5) 3%,transparent 40%),radial-gradient(circle at 5.5% 3%,var(--color-2) 40% ,transparent 75%),radial-gradient(circle at 2.5% 3.5%,var(--color-2) 25% ,transparent 45%)
   }
 
 
