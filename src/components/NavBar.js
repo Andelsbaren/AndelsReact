@@ -18,9 +18,9 @@ function NavBar() {
         </NavLink> */}
   
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-                <img
+                {/* <img
           className="navbar-logo"
-          src={img1}/> 
+          src={img1}/>  */}
           <li className="nav-item">
          
             <NavLink
