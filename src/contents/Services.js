@@ -8,6 +8,9 @@ class Services extends Component {
         return (
             <div className="servicespage">
       <p className="kop">Köp andelar</p>
+            {/* <img
+          className="navbar-logo"
+          src={img1}/> */}
       <br/>    <p class="textnormal">
         Andelsbaren är aktiv på de två dominerande spelplattformarna ATG
         Tillsammans samt Svenska Spels Spela Tillsammans.
