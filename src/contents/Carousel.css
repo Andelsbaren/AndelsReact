@@ -12,21 +12,38 @@
     align-items: center;
     justify-content: center;
     height: 200px;
-    background-color: green;
+    background-color: none;
     color: #fff;
+    width: 200px;
 }
 
 .indicators {
     display: flex;
     justify-content: center;
     
+    
   }
   
   .indicators > button {
     margin: 5px;
+    background-color: white;
+    border-radius: 15px;
+  }
+
+  .indicators > button:hover{
+    transform: scale(1.1);
   }
   
   .indicators > button.active {
     background-color: green;
     color: #fff;
   }
+
+
+  /* @media (max-width: 576px ){
+    .carousel-item{
+      max-width: 800px;
+      
+
+    }
+  } */
