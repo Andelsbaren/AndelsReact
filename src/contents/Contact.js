@@ -16,29 +16,30 @@ class Contact extends Component {
           <div className="socialmedia">
   <a
     className="nav-social-icons-container"
-    href=""
-    onclick="window.open('https://m.me/andelsbaren')"
+    href="https://m.me/andelsbaren"
+    target="_blank" rel="noopener noreferrer"
   >
     <i className="fa-brands fa-facebook-messenger fa-2x" />
   </a>
   <a
     className="nav-social-icons-container"
-    href=""
-    onclick="window.open('https://facebook.com/andelsbaren')"
+    href="https://facebook.com/andelsbaren"
+    target="_blank" rel="noopener noreferrer"
   >
     <i className="fa fa-facebook fa-2x" />
   </a>
   <a
     className="nav-social-icons-container"
-    href=""
-    onclick="window.open('https://twitter.com/andelsbaren')"
+    href="https://twitter.com/andelsbaren"
+    target="_blank" rel="noopener noreferrer"
+    
   >
     <i className="fa fa-twitter fa-2x" />
   </a>
   <a
     className="nav-social-icons-container"
-    href=""
-    onclick="window.open('https://youtube.com/andelsbaren')"
+    href="https://www.youtube.com/results?search_query=andelsbaren"
+    target="_blank" rel="noopener noreferrer"
   >
     <i className="fa fa-youtube fa-2x" />
   </a>
@@ -51,12 +52,12 @@ class Contact extends Component {
   </a>
   <a
     className="nav-social-icons-container"
-    href=""
-    onclick="window.open('https://www.instagram.com/andelsbaren')"
-    target="_blank"
+    href="https://www.instagram.com/andelsbaren"
+    target="_blank" rel="noopener noreferrer"
   >
     <i className="fa fa-instagram fa-3x" />
   </a>
+  
   </div>
 </div>
             )
