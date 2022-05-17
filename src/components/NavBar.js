@@ -9,16 +9,20 @@ function NavBar() {
   const handleClick = () => setClick(!click);
   return (
     <>    <div className="nav-container">
-        <img
-          className="navbar-logo"
-          src={img1}/></div>
+<iframe width="100%" height="60" src="https://rss.app/embed/v1/ticker/o1TetTZmrXJdzNIJ" frameborder="0"></iframe>
+   </div> 
       <nav className="navbar">
 {/* 
         <NavLink exact to="/" className="nav-logo">
           ANDELSBAREN
         </NavLink> */}
+  
         <ul className={click ? "nav-menu active" : "nav-menu"}>
+                <img
+          className="navbar-logo"
+          src={img1}/> 
           <li className="nav-item">
+         
             <NavLink
               exact
               to="/services"
