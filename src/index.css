@@ -56,9 +56,8 @@ footer {
   footer .row {
  display:flex;
       color: #fff;
-      position: relative;
-      justify-content: center;
-      flex-wrap:wrap;
+    width: 100%;
+   
 
   }
   
