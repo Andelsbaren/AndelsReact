@@ -54,9 +54,8 @@ p {
 
 @media (max-width:576px) {
   .feed {
-    display: flex;
-    margin-top: -1.9rem;
-    justify-content: center
+margin-top:-1.5rem;
+  
   }
   .contactpage {
     width: 100%;
