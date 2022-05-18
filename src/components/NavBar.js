@@ -69,9 +69,13 @@ function NavBar() {
           <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
 
         </div>
-            <div className="nav-horse"><img
+            <div className="nav-horse">
+              <NavLink to="/" className="home-button">  
+              <img
           className="navbar-logo"
-          src={img1}/> </div>
+          src={img1} alt="" onClick={handleClick} /> 
+          </NavLink>
+          </div>
       </nav>
     </>
   );
