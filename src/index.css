@@ -1,3 +1,11 @@
+.fa {
+    color: white;
+}
+
+.fa-brands{
+    color: white;
+}
+
 html {
     scroll-behavior: smooth
 }
