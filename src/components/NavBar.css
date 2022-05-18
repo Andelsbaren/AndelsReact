@@ -212,11 +212,11 @@ border-bottom: 2px solid #fff
   }
   .nav-horse {
     display: block;
-
+    max-width: 50;
     position: absolute;
     top: 55px;
     left: -16;
-z-index:0;
+    z-index:0;
 
     cursor: pointer;
   
