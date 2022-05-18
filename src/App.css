@@ -11,6 +11,13 @@ body {
   margin: 0 auto;
   background-color: #171717
 }
+.feed {
+  display: flex;
+  padding-bottom:1rem;
+
+
+  justify-content: center
+}
 
 
 p {
@@ -54,8 +61,11 @@ p {
 
 @media (max-width:576px) {
   .feed {
-margin-top:-1.5rem;
-  
+    display: flex;
+    padding-bottom:1rem;
+   
+
+    justify-content: center
   }
   .contactpage {
     width: 100%;
