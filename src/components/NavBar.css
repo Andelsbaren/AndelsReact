@@ -1,10 +1,10 @@
 
  .container {
  display:inline-flex;
-  max-width: 500px;
-  justify-content: space-between;
-  margin: auto;
-  margin-top: 3rem
+  min-width: 100%;
+  justify-content: space-evenly;
+
+
 }
 
 .socialmedia {
@@ -17,12 +17,16 @@
 
 .textnormal {
   font-family: 'Alegreya Sans SC';
-  font-size: 18px;
-  font-weight: 300;
+  font-size:20px;
 
-  padding:1rem;
-  margin: 0;
-  display: inline-block
+  font-weight: 300;
+width:350px;
+
+
+
+  display: inline-block;
+
+ 
 }
 
 
@@ -55,13 +59,7 @@ text-align: center;
 background: radial-gradient(circle at 1.4% 1.4%, var(--color-5) 3%, transparent 40%), radial-gradient(circle at 5.5% 3%, var(--color-2) 40%, transparent 75%), radial-gradient(circle at 2.5% 3.5%, var(--color-2) 25%, transparent 45%)
 }
 
-.servicespage {
-width: 100%;
-height: 100%;
-text-align: center;
-background-color: #000;
 
-}
 
 .kophome {
 margin-top: -.4rem;
@@ -201,7 +199,7 @@ border-bottom: 2px solid #fff
     display: block;
 
     position: absolute;
-    top: 56px;
+    top: 50px;
     right: -12;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
@@ -236,7 +234,7 @@ border-bottom: 2px solid #fff
 
 .nav-container {
 
-  height: auto;
+  height: 3.47rem;
 
   width: auto;
  

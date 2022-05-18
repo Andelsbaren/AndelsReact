@@ -7,13 +7,27 @@
 
 }
 
+.textcolor{
+  color:#014F9F;
+  font-weight: bold;
+}
+.textcolor2{
+  color:var(--color-2);
+font-weight: bold;
+}
+.textcolor3{
+  color:white;
+font-weight: 700;
+}
+
+
 body {
   margin: 0 auto;
   background-color: #171717
 }
 .feed {
   display: flex;
-  padding-bottom:1rem;
+
 
 
   justify-content: center
@@ -62,8 +76,8 @@ p {
 @media (max-width:576px) {
   .feed {
     display: flex;
-    padding-bottom:1rem;
-   
+
+ 
 
     justify-content: center
   }
@@ -99,6 +113,7 @@ p {
 .servicespage {
   width: 100%;
   height: 100%;
+
   text-align: center;
   background-image: url('/src/img/samarberte.png');
   background-position:top;
@@ -108,27 +123,27 @@ background-size:contain ;
 
 
 }
-
+/* 
 .kophome {
   margin-top: -.4rem;
   padding-top: .6rem;
   padding-bottom: .6rem;
   font-family: Sandoval, sans-serif;
-  border-top: 2px solid #fff;
+
   letter-spacing: .2rem;
   text-transform: uppercase;
   color: #fff;
   background-color: #da0505;
   font-size: 2rem;
 padding-left: 1rem;
-  border-bottom: 2px solid #fff
-}
+
+} */
 
 
 
 .svenska-button {
 display:inline-flex;
-box-shadow: 2px 2px 0px 0px rgba(243, 221, 221, 0.836);
+box-shadow: 2px 2px 0px 0px rgba(255, 0, 0, 0.836);
   width: 60px;
   height: 60px;
 
