@@ -11,7 +11,7 @@ class Services extends Component {
             {/* <img
           className="navbar-logo"
           src={img1}/> */}
- <p class="textnormal"><br/><br/><br/><br/><br/><br/>
+ <p className="textnormal"><br/><br/><br/><br/><br/><br/>
         {/* Andelsbaren är aktiv på de två dominerande spelplattformarna ATG
         Tillsammans samt Svenska Spels Spela Tillsammans. */}
     
@@ -24,7 +24,7 @@ class Services extends Component {
         href="https://spela.svenskaspel.se/spela-tillsammans/ombudslag/23563-andelsbaren---spelhornan"
         target="_blank" >
         <img
-          className="svenska-button" width="50px" height="50px"
+          className="svenska-button"
           src={img1}/>
       </a>
            </section>
@@ -32,7 +32,7 @@ class Services extends Component {
 
       <a href="https://www.atg.se/spelhornansurahammar" target="_blank">
         <img
-          className="atg-button" width="50px" height="50px"
+          className="atg-button"
           src={img2}/>
       </a>
          </section> 

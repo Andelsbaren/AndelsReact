@@ -106,6 +106,7 @@ p {
 background-repeat: no-repeat;
 background-size:contain ;
 
+
 }
 
 .kophome {
@@ -126,12 +127,20 @@ padding-left: 1rem;
 
 
 .svenska-button {
-  margin-left: 3.5rem
+display:inline-flex;
+box-shadow: 2px 2px 0px 0px rgba(243, 221, 221, 0.836);
+  width: 60px;
+  height: 60px;
+
+
 }
 
 .atg-button {
-  margin-top: -1.5rem;
-  margin-left: 6.5rem
+  display:inline-flex;
+  box-shadow: 2px 2px 0px 0px #014F9F;
+  width: 60px;
+  height: 60px;
+
 }
 }
 
