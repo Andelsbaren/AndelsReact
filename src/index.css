@@ -6,6 +6,14 @@
     color: white;
 }
 
+.fa-brands:hover{
+    color: red;
+}
+
+.fa:hover{
+    color: red;
+}
+
 html {
     scroll-behavior: smooth
 }
