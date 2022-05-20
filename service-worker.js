@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/andelsbaren/precache-manifest.10df1ab4b9c86a9861a5b693cb4f2694.js"
+  "/andelsbaren.github.io/precache-manifest.89c6d3ad86238eef9a0ba90a8529b2ef.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/andelsbaren/index.html", {
+workbox.routing.registerNavigationRoute("/andelsbaren.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
