@@ -12,10 +12,6 @@ function NavBar() {
 <iframe width="100%" height="60" src="https://rss.app/embed/v1/ticker/xpddOSYioXbehPZS" frameborder="0"></iframe>
    </div> 
       <nav className="navbar">
-{/* 
-        <NavLink exact to="/" className="nav-logo">
-          ANDELSBAREN
-        </NavLink> */}
   
         <ul className={click ? "nav-menu active" : "nav-menu"}>
      
@@ -73,7 +69,7 @@ function NavBar() {
               <NavLink to="/" className="home-button">  
               <img
           className="navbar-logo"
-          src={img1} alt="" onClick={handleClick} /> 
+          src={img1} alt="" onClick={!handleClick} /> 
           </NavLink>
           </div>
       </nav>
